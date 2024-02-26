@@ -64,7 +64,7 @@ const Products = () => {
         },
         {
             id: 4,
-            img: Img5,
+            img: Img8,
             title: "Printed ",
             price: "220",
             aosDelay: "600",

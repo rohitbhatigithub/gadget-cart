@@ -1,6 +1,6 @@
 import React from "react";
 import { IoIosSearch } from "react-icons/io";
-import { FaCaretDown, FaCartShopping } from "react-icons/fa6";
+import { FaCartShopping } from "react-icons/fa6";
 import { IoMdArrowDropdown } from "react-icons/io";
 import DarkMode from "./DarkMode";
 const Navbar = ({ handleOrderPopup }) => {

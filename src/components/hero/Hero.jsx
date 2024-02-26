@@ -60,6 +60,13 @@ const HeroData = [
         title1: "Wireless",
         title2: "Speeker",
     },
+    {
+        id: 8,
+        img: Earphone,
+        subtitle: "Beats Solo",
+        title1: "Wireless",
+        title2: "Earphone",
+    },
 ];
 
 const Hero = ({ handleOrderPopup }) => {
