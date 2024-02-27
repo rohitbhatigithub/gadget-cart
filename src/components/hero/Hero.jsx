@@ -50,7 +50,7 @@ const HeroData = [
         id: 6,
         img: Watch,
         subtitle: "Beats Solo",
-        title1: "Wireless",
+        title1: "Gadget",
         title2: "Watch",
     },
     {
@@ -64,7 +64,7 @@ const HeroData = [
         id: 8,
         img: Earphone,
         subtitle: "Beats Solo",
-        title1: "Wireless",
+        title1: "Bluetooth",
         title2: "Earphone",
     },
 ];
@@ -76,7 +76,7 @@ const Hero = ({ handleOrderPopup }) => {
         dots: true,
         arrows: false,
         infinite: true,
-        speed: 500,
+        speed: 200,
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplaySpeed: 4000,

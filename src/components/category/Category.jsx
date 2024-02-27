@@ -34,14 +34,14 @@ const Category = () => {
                     </div>
                     {/* second col */}
                     <div className="py-10 pl-5 bg-gradient-to-br from-brandYellow to-brandYellow/90 text-white rounded-3xl relative h-[320px] flex items-start">
-                        <div>
+                        <div className="z-40">
                             <div className="mb-4">
                                 <p className="mb-[2px] text-white">Enjoy</p>
                                 <p className="text-2xl font-semibold mb-[2px]">
                                     With
                                 </p>
                                 <p className="text-2xl md:text-4xl xl:text-5xl font-bold opacity-40 mb-2">
-                                    Gadget
+                                    Watch
                                 </p>
                                 <Button
                                     text="Browse"
@@ -57,7 +57,7 @@ const Category = () => {
                         />
                     </div>
                     {/* third col */}
-                    <div className="col-span-2 py-10 pl-5 bg-gradient-to-br from-primary to-primary/90 text-white rounded-3xl relative h-[320px] flex items-start">
+                    <div className="col-span-2 py-10 pl-5 bg-gradient-to-br from-primary to-primary/90 text-white rounded-3xl relative h-[320px] flex items-end md:items-start">
                         <div className="z-50">
                             <div className="mb-4">
                                 <p className="mb-[2px] text-white">Enjoy</p>

@@ -9,7 +9,7 @@ const Category2 = () => {
             <div className="container">
                 <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                     {/* first col */}
-                    <div className="col-span-2 py-10 pl-5 bg-gradient-to-br from-gray-400/90 to-gray-100 text-white rounded-3xl relative h-[320px] flex items-start">
+                    <div className="col-span-2 py-10 pl-5 bg-gradient-to-br from-gray-400/90 to-gray-100 text-white rounded-3xl relative h-[320px] flex items-end md:items-start">
                         <div className="z-50">
                             <div className="mb-4">
                                 <p className="mb-[2px] text-white">Enjoy</p>
@@ -17,7 +17,7 @@ const Category2 = () => {
                                     With
                                 </p>
                                 <p className="text-4xl xl:text-5xl font-bold opacity-40 mb-2">
-                                    Laptop
+                                    Speeker
                                 </p>
                                 <Button
                                     text="Browse"
@@ -41,7 +41,7 @@ const Category2 = () => {
                                     With
                                 </p>
                                 <p className="text-2xl md:text-4xl xl:text-5xl font-bold opacity-20 mb-2">
-                                    Earphone
+                                    VR
                                 </p>
                                 <Button
                                     text="Browse"

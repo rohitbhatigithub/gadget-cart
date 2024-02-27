@@ -12,7 +12,7 @@ const ProductCard = ({ data }) => {
                             <img
                                 src={data.img}
                                 alt=""
-                                className="h-[190px] md:h-[250px] w-[220px] md:w-[250px] object-cover rounded-md"
+                                className="h-[170px] md:h-[220px] w-[200px] md:w-[250px] object-scale-down md:object-content rounded-md"
                             />
                             {/* hover button */}
                             <div className="hidden group-hover:flex absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 h-full w-full text-center group-hover:backdrop-blur-sm justify-center items-center duration-300 rounded-md">
